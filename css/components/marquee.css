@@ -1,0 +1,25 @@
+.marqueeleprojet {
+  max-width: 30em;             
+  margin: 1em auto 2em;
+  border: 10px solid #FFFFFF;
+  overflow: hidden;
+  box-shadow: 0 .25em .5em #FFFFFF,inset 0 0 1em .25em #FFFFFF;
+direction: up;
+}
+.marqueelebut {
+  max-width: 35em;             
+  margin: 1em auto 2em;
+  border: 10px solid #FFFFFF;
+  overflow: hidden;
+  box-shadow: 0 .25em .5em #3300ff,inset 0 0 1em .25em #3300ff;
+direction: up;
+}
+
+.marqueerejoindre {
+  max-width: 40em;             
+  margin: 1em auto 2em;
+  border: 10px solid #FFFFFF;
+  overflow: hidden;
+  box-shadow: 0 .25em .5em #f00020,inset 0 0 1em .25em #f00020;
+direction: up;
+}

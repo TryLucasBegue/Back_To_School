@@ -1,0 +1,85 @@
+.container {
+  width: 780px;
+  margin: 30px auto;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .container{
+    width: 720px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .container{
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+.list-link-candidature {
+  color: ghostwhite;
+  background-color: 
+  rgba(0,0,0,0.12); 
+  list-style: none; 
+  padding: 0px
+}
+.list-link-social {
+  color: ghostwhite;
+  background-color: rgba(0,0,0,0.12);
+  list-style: none;
+  padding: 0px;
+  text-align: center;
+  border-radius: 20px;
+}
+.list-link-social ul{
+  background-color: transparent;
+  }
+.list-link-social li{
+  display: inline-block;
+  padding: 0px;
+  font-size: 30px;
+  background-color: rgba(0,0,0,0.100);
+  border-radius: 20px;
+}
+.list-link-social a{
+  color: #0000FF;
+}
+.list-link-social a:hover {
+  color: red;
+}
+.list-link-candidature li{
+  display: inline-block;
+  padding: none;
+  font-size: 30px;
+  background-color: rgba(0,0,0,0.100);
+  border-radius: 20px;
+}
+.list-link-candidature a{
+  color: #7fff00;
+}
+.list-link-candidature a:hover {
+  color: red;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.video-responsive { 
+overflow:hidden; 
+padding-bottom:56.25%; 
+position:relative; 
+height:0;
+}
+
+.video-responsive iframe {
+left:0; 
+top:0; 
+height:100%;
+width:100%;
+position:absolute;
+}

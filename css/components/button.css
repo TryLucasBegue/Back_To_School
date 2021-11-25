@@ -1,0 +1,20 @@
+.button-blue{
+	background-color: rgba(46,134,166,1);
+	color:  white;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+.button-blue: hover {
+	background-color: #2F86A6;
+}
+.button-banniere {
+    top: 15px;
+}
+.button-banniere a {
+    border: solid 1px #0f056b;
+    padding: 6px;
+    background: #0f056b;
+    border-radius: 9px;
+    color: white;
+    text-decoration: none;
+}

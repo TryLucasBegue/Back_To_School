@@ -1,0 +1,51 @@
+.bannerpostit {
+    background-image: url(../../images/postit.jpg);
+    background-position: center;
+    background-repeat : no-repeat;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-size: cover;
+    }
+.bannerliensocial {
+    background-image: url(../../images/blue.gif);
+    background-position: center;
+    background-repeat : no-repeat;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-size: cover;
+}
+.bannerrejoindre {
+    background-image: url(../../images/bureau.jpg);
+    background-position: center;
+    background-repeat : no-repeat;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+   }
+.banniere {
+    border-top: solid 5px white;
+    background: rgba(0, 0, 0, 0.911);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    font font-family: "sans-serif;";
+}
+.text-banniere p {
+    font-size: large;
+}
+.bannermembres {
+        background-image: url(../../images/fond.jpg);
+    background-position: center;
+    background-repeat : no-repeat;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}

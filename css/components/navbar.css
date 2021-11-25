@@ -1,0 +1,38 @@
+.navbarlogo {
+    display: flex;
+    align-items: center;
+}
+.navbarlogo img {
+    width: 60px;
+    height: 40px;
+}
+.navbar li {
+	display: inline-block;
+}
+.navbarlogo ul {
+    display: flex;
+    flex-grow: 1;
+    gap: 1px;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.navbarlogo {
+    background-image: url(../../images/feuille.jpg);
+    background-position: center;
+    background-repeat : no-repeat;
+    margin: -35px auto;
+    text-align: center;
+    background-size: cover;
+    position: fixed;
+    line-height: 3px;
+    width: 100%;
+    z-index: 5;
+}
+    @media (max-width: 575px) {
+  .navbarlogo {
+    display: none;
+  }
+}
+
